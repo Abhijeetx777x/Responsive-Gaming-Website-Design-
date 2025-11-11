@@ -386,6 +386,9 @@ body {
   visibility: hidden;
   transition: clip-path 500ms var(--cubic-out);
 }
+.navbar-item :hover{
+  color: #9841ff;
+}
 
 .navbar.active {
   clip-path: var(--clip-path-2);
